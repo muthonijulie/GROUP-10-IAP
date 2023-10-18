@@ -2,7 +2,7 @@
 <html=lang "en">
 <head>
     <meta charset="UTF-8">
-    <title>Muthoni</title>
+    <title>Group 10 IAP</title>
 </head>
 <!--<style>
   table, th, td {
@@ -101,34 +101,46 @@
      <body>
       <h2>Form to Submit My Comments</h2>
       <form action="/action_page.php" autocomplete="on">
-        <h4>Personal Details</h4>
-        <label for ="name">Name</label>
-        <input type ="text" id="name"name="name" value=""><br><br>
-        <label for ="emailaddress">Email Address</label>
-        <input type ="text" id="emailaddress"name="emailaddress" value=""><br><br>
-        <label for ="gender">Gender</label>
-        <input type="radio" id="male" name="gender" value="male">
-         <label for="male">Male</label>
-         <input type="radio" id="female" name="gender" value="female">
-         <label for="female">Female</label><br><br>
-        <label for="age">Age</label>
-        <select id="age" name="age" size="1"  >
-          <option value="18">Under 18</option>
-          <option value="30">Under 30</option>
-          <option value="60">Under 60</option>
-          <option value="60">Over 60</option>
-       </select>
-       <h4>Please Comment Here</h4>
-       <label for ="comments">Commments:</label><br>
-        <input type ="text" id="comments"name="comments" value=""><br><br>
-       
-        <input type="submit" name="submit" value="Submit My Comments"><br>
-
-
+        <fieldset>
+          <legend>Personal Details</legend>
+          <label for ="name">Name</label>
+          <input type ="text" id="name"name="name" value=""><br><br>
+          <label for ="emailaddress">Email Address</label>
+          <input type ="text" id="emailaddress"name="emailaddress" value=""><br><br>
+          <label for ="gender">Gender</label>
+          <input type="radio" id="male" name="gender" value="male">
+           <label for="male">Male</label>
+           <input type="radio" id="female" name="gender" value="female">
+           <label for="female">Female</label><br><br>
+          <label for="age">Age</label>
+          <select id="age" name="age" size="1"  >
+            <option value="18">Under 18</option>
+            <option value="30">Under 30</option>
+            <option value="60">Under 60</option>
+            <option value="60">Over 60</option>
+         </select>
+        </form>
+      </fieldset>
+      <form>
+        <fieldset>
+          <legend>Please Comment Here</legend>
+          <label for ="comments">Commments:</label><br>
+           <input type ="text" id="comments"name="comments" value=""><br><br>
+          
+           <input type="submit" name="submit" value="Submit My Comments"><br>
+         </fieldset>
       </form>
-      <!--<h1>Register Employee Here</h1>
+         
+        
+  
+  
+        
+        
+       
+      <h1>Register Employee Here</h1>
       <form action="/action_page.php" autocomplete="on">
-        <h3 >Employee Personal Details</h3>
+        <fieldset>
+       <legend> Employee Personal Details </legend>
         <label for ="name">Name:</label>
         <input type ="text" id="name"name="name" value=""><br>
         <label for ="phonenumber">Phone Number:</label>
@@ -151,20 +163,27 @@
           <option value="ict">ICT</option>
           <option value="humanresource">Human Resource</option>
           <option value="customerservice">Customer Service</option>
-       </select>
-       <h3>Employee Renumeration Package</h3>
-       <label for ="basicsalary">Basic Salary:</label>
-       <input type ="text" id="basicsalary"name="basicsalary" value=""><br>
-        <label for ="humanallowance">Human Allowance:</label> 
-        <input type ="text" id="humanallowance"name="humanallowance" value=""><br>
-        <label for ="commuterallowance">Commuter Allowance:</label>
-        <input type ="text" id="commuterallowance"name="commuterallowance" value=""><br>
-       
-        <input type="submit" name="submit" value="Register Employee"><br>
+        </select>
+       </form>
+      </fieldset>
+      <form>
+        <fieldset>
+          <legend>Employee Renumeration Package</legend>
+        <h3></h3>
+        <label for ="basicsalary">Basic Salary:</label>
+        <input type ="text" id="basicsalary"name="basicsalary" value=""><br>
+         <label for ="humanallowance">Human Allowance:</label> 
+         <input type ="text" id="humanallowance"name="humanallowance" value=""><br>
+         <label for ="commuterallowance">Commuter Allowance:</label>
+         <input type ="text" id="commuterallowance"name="commuterallowance" value=""><br>
+        
+         <input type="submit" name="submit" value="Register Employee"><br>
+        </fieldset>
+      </form>
+      
 
 
-      </form>-->
+      
 
         
   </html>
-
